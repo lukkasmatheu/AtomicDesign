@@ -45,8 +45,8 @@ export const Home = () => {
                             onChangeText={onChangeText}
                             value={text}
                         />    
-                        <Button title="Filtrar" onPress={filter}/>
-                        <Button title="Limpar Filtro" onPress={clearFilter}/>
+                        <Button title="Filtrar" onPress={filter} color={"#8957e5"}/>
+                        <Button title="Limpar Filtro" onPress={clearFilter} color={"#8957e5"}/>
                     </Card.CardFotter>
                 </ScrollView>
             </Card.CardBody>
