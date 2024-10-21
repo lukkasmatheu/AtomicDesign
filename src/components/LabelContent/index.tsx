@@ -10,7 +10,7 @@ interface ContentProps{
 }
 
 
-export const LabelContent:React.FC<ContentProps> = ({label,value='',children},) => {
+export const LabelContent:React.FC<ContentProps> = ({label,value='',children}) => {
     return (
     <View style={styles.contentContainer}>
         <Text style={styles.label}>{label}</Text>

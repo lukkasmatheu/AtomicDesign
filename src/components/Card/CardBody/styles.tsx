@@ -2,9 +2,9 @@ import { StyleSheet } from "react-native"
 
 export const styles = StyleSheet.create({
     container: {
-        backgroundColor: "#f1f1f1",
+        backgroundColor: "#2d1d3d",
         borderRadius: 8,
-        borderColor: "#0000",
+        borderColor: "#b788fc",
         borderWidth: 1,
         width: "100%",
         marginBottom: 10,

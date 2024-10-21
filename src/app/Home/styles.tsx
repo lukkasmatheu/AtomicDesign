@@ -18,5 +18,19 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold',
         color: '#333',
         marginBottom: 10,
+    },
+    button:{
+        borderWidth:1,
+        borderRadius:8,
+        borderColor:"#5d2d1d",
+        margin:5,
+        padding:8
+    },
+    input:{
+        borderWidth:1,
+        borderRadius:8,
+        borderColor:"#5d2d1d",
+        margin:5,
+        padding:8
     }
 })
